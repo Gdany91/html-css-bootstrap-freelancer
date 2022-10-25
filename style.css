@@ -1,0 +1,93 @@
+[class*= "col"] {
+
+    /* DEBUG */
+    min-height: 100px;
+    border: 2px solid black;
+    
+}
+
+
+
+/* header */
+    /* TOP */
+    .start{
+        /* DEBUG */
+        min-height: 400px;
+        padding: 20px 0;
+    }
+
+    .top{
+        /* DEBUG */
+        background-color:#2c3e50 ;
+        
+        
+    }
+    
+
+
+    .bottom{
+        /* DEBUG */
+        background-color:#1abc9c ;
+        
+    }
+
+
+    /* BOTTOM */
+    .circle{
+        width: 200px;
+        height: 200px;
+        border: solid black 2px;
+        border-radius: 50%;
+    }
+
+
+
+
+
+
+
+
+/* portfolio */
+    .portfolio{
+        margin: 40px auto;
+    }
+
+
+
+    /* about */
+
+    .about{
+        /* DEBUG */
+        min-height: 400px;
+        background-color:#1abc9c ;
+        margin: 40px auto;
+
+    }
+
+    .contact{
+        /* DEBUG */
+        min-height: 400px;
+        margin: 40px auto;
+
+    }
+
+/* footer */
+    .location{
+        /* DEBUG */
+        min-height: 400px;
+        background-color:#3a546d ;
+        
+
+    }
+
+    .loc{
+        margin: 20px auto;
+    }
+
+    .copyright{
+        /* DEBUG */
+        height: 200px;
+        background-color:#2c3e50 ;
+      
+
+    }

@@ -4,20 +4,13 @@
 /* header */
     /* TOP */
     .start{
-        /* DEBUG */
-        min-height: 400px;
-        padding: 20px 0;
         color: white;
         
     }
 
     .top{
-        /* DEBUG */
         background-color:#2c3e50 ;
-        min-height: 150px;
-        padding: 20px ;
-        
-        
+        padding-bottom: 25px ;
     }
 
 
@@ -31,7 +24,7 @@
 
 
     .bottom{
-        /* DEBUG */
+        
         background-color:#1abc9c ;
         
     }
@@ -41,7 +34,7 @@
     .circle{
         width: 200px;
         height: 200px;
-        border: solid black 2px;
+        
         border-radius: 50%;
     }
 
@@ -81,9 +74,6 @@
 
 
 /* portfolio */
-    .portfolio{
-        margin: 40px auto;
-    }
 
     .card{
         width: 100%;
@@ -110,7 +100,7 @@
 
     .about{
         /* DEBUG */
-        min-height: 400px;
+      
         background-color:#1abc9c ;
         margin: 40px auto;
 
@@ -118,7 +108,7 @@
 
     .contact{
         /* DEBUG */
-        min-height: 400px;
+        
         margin: 40px auto;
 
     }
@@ -127,13 +117,35 @@
         color: white;
     }
 
+
+     /* contatti */
+
+     .mb-3{
+        color: black;
+        border-bottom: 1px solid black;
+     }
+     
+     .msg{
+        padding-bottom: 150px;
+     }
+
+     .contact .star{
+        color: black;
+        margin: 10px;
+    }
+
+    .contact .dash{
+        border: 2px solid black;  
+         
+     }
+
+     .btn{
+        
+        background-color:#1abc9c;
+     }
 /* footer */
     .location{
-        /* DEBUG */
-        min-height: 400px;
-        background-color:#3a546d ;
-        
-
+         background-color:#3a546d ;
     }
 
     .loc{
@@ -141,9 +153,16 @@
     }
 
     .copyright{
-        /* DEBUG */
-        height: 200px;
+        height: 80px;
         background-color:#2c3e50 ;
-      
+    }
 
+    .copy{
+        color: white;
+        font-size: 0.8rem;
+    }
+
+    .text-copy{
+        display: flex;
+        justify-content: center;
     }

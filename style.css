@@ -7,13 +7,14 @@
         /* DEBUG */
         min-height: 400px;
         padding: 20px 0;
+        color: white;
         
     }
 
     .top{
         /* DEBUG */
         background-color:#2c3e50 ;
-        min-height: 10px;
+        min-height: 150px;
         padding: 20px ;
         
         
@@ -49,6 +50,7 @@
         flex-direction: column;
         align-items: center;
         color: white;
+        padding-top:50px ;
     }
 
     .star{
@@ -84,7 +86,7 @@
     }
 
     .card{
-        width: 400px;
+        width: 100%;
         
     }
 
@@ -99,7 +101,7 @@
      }
 
     .title-port{
-        color: bl;
+        color: black;
     }
 
 
@@ -119,6 +121,10 @@
         min-height: 400px;
         margin: 40px auto;
 
+    }
+
+    .paragraph{
+        color: white;
     }
 
 /* footer */
